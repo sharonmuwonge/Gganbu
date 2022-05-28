@@ -21,7 +21,7 @@ const server = http.createServer((req, res) => {
       if (!isNaN(value)) {
         res.writeHead(200, { 'Content-Type': 'application/json' });
         let marbleGuess = Math.ceil(Math.random() * 2) === 1 ? 'I guess odd' : 'I guess even';
-        let result = (params['student'] % 2 == 0 && marbleGuess == 'I guess odd') || (params['student'] % 2 != 0  && marbleGuess == 'I guess even') ? 'You win' : 'You lose';
+        let result = (params['student'] % 2 == 0 && marbleGuess == 'I guess odd') || (params['student'] % 2 != 0 && marbleGuess == 'I guess even') ? 'You win' : 'You lose';
         const objToJson = {
           // name: "leon",
           // currentOccupation: "Baller",

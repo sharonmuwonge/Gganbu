@@ -2,6 +2,8 @@
 
 <p>In this game you are tasked with picking a number of marbles. Your opponent will guess if the number of marbles you've chosen is odd or even.</p>
 
+![My App](./app.png)
+
 # Contributors:
 
 <ul>
