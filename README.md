@@ -1,6 +1,6 @@
 # Gganbu
 
-<p>In this game you are tasked with picking a number of marbles. Your opponent will guess if the number of marbles you've chosen is odd or even.</p>
+<p>In this game you are tasked with betting a number of marbles that your opponent can't see. Your opponent will guess if the number of marbles you've chosen is odd or even. If the guess is correct, your opponent wins the marbles you bet. If the guess is not correct, you win the round!</p>
 
 ![My App](./app.png)
 
